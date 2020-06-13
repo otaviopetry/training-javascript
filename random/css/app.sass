@@ -1,0 +1,78 @@
+body
+    background-color: #eaeaea
+
+.container
+    min-width: 100vw
+    min-height: 100vh
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+#random-color-square
+    
+    button
+        margin-bottom: 3rem
+        position: fixed
+        top: 10px
+
+    .square
+        display: inline-block
+        width: 100px
+        height: 100px
+        background-color: red
+        margin-right: 1rem
+
+    .square-container
+        display: flex
+        flex-direction: row
+
+
+#untitled
+    min-width: 100vh
+    min-height: 100%
+    overflow-x: visible
+    font-size: 1.3rem
+
+    .fieldset
+        position: absolute
+        top: 16px
+        left: calc( 50% - 175px )
+
+        input
+            padding: 1rem
+
+        button
+            padding: 1rem
+            background-color: #C5BA55
+            text-transform: uppercase
+            font-weight: bold
+            color: #fff
+            border-radius: 8px
+
+        .output
+            display: inline-block
+            width: 0px
+            font-size: .9rem
+            white-space: nowrap
+            overflow: visible
+            opacity: 0
+            transition: opacity 200ms
+            
+    ul
+        text-align: left
+        list-style: none
+        display: flex
+        
+
+        li
+            display: flex
+            align-items: center
+            justify-content: center
+            min-width: 100px
+            height: 100px
+            background-color: #fefefe
+            color: #897D1F
+            font-size: .9rem
+            font-weight: bold
+            margin-right: 1rem
