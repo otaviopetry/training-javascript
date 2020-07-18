@@ -1,6 +1,8 @@
 const button = document.getElementById("generator");
 
 function staircase (n) {
+
+    console.log(' '.repeat(n-1) + '🔴');
     
     for ( let i = 1; i <= n; i++) {
         const newStepSpaces = n - i;
@@ -16,7 +18,10 @@ function staircase (n) {
             newStairStep.push('#');
         }
 
-        console.log(newStairStep.toString().replace(/,/g, ''));
+        const leftSide = newStairStep.toString().replace(/,/g, '');
+        const rightSide = leftSide.split("").reverse().join("");
+
+        console.log(leftSide + rightSide);
     }
 }
 
