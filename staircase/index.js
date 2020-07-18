@@ -26,7 +26,7 @@ function staircase (n) {
 }
 
 const app = () => {
-    return '<h1>Check your console for this awesome staircase, dude!</h1>';
+    return '<h1>Check your console for this awesome christmas tree, dude!</h1>';
 }
 
 document.getElementById('root').innerHTML = app();
