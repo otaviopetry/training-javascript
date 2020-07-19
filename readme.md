@@ -40,3 +40,12 @@ As a bonus, I've converted it to a christmas tree 🎄
 
 <img src="./readme-images/staircase-christmas.png" alt="Console christmas tree challenge">
 
+### **Exercise 7** -> sellings ranking simulator
+
+Write a function to compare two arrays of value. 
+
+- 1st array contains the number of sellings of all sellers // i.e [20, 30, 16, 32, 16]
+- 2nd array contains simulated sellings of an user // i.e [35, 20, 25]
+- If two users made the same number of sellings, they have the same ranking.
+
+The function may return the general ranking of the user for each simulated value // i.e [1, 3, 3]
