@@ -23,4 +23,4 @@ const fizzBuzz = (n) => {
     return treatedOutput;
 };
 
-document.getElementById("root").innerHTML = fizzBuzz(15);
+document.getElementById("root").innerHTML = fizzBuzz(50);
