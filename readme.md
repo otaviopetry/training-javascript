@@ -49,3 +49,16 @@ Write a function to compare two arrays of values:
 - If two users made the same number of sellings, they have the same ranking
 
 The function may return the general ranking of the user for each simulated value // i.e [1, 3, 3]
+
+### **Exercise 8** -> tallest candles
+
+Given an array of integers, get the number of occurrences of the largest number.
+
+### **Exercise 9** -> convert hour string to 24h format
+
+Given an input in 12h format like ```11:05:32PM```, convert it to 24h: ```23:05:32```.
+
+Note that you must remove the AM/PM indicators.
+
+Note also that 12 AM is 00:00:00.
+
