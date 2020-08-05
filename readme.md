@@ -62,3 +62,9 @@ Note that you must remove the AM/PM indicators.
 
 Note also that 12 AM is 00:00:00.
 
+### **Exercise 10** -> round grades
+
+Round students grades according to the rules:
+
+- If the difference between the *grade* and the next multiple of *5* is less than *3*, round up to the next multiple of *5*
+- If the value of *grade* is less than *38*, no rounding occurs as the result is a failing grade
