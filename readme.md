@@ -1,5 +1,4 @@
 ## Training Javascript
-
 ### **Exercise 1** -> random/random-color-square.html
 
 Create a button that inserts squares into the page and, when the mouse goes over it, changes the background to a random color.
@@ -24,15 +23,15 @@ Print a sequence of _n_ numbers, but when the number:
 
 Write a function that returns the sum of an array of integers.
 
-### **Exercise 4** -> minimum and maximum sums
+### **Exercise 4** -> minimum and maximum sums (HackerRank)
 
 For an array of _n_ integers, write a function that returns the smallest and the greatest sums possible using _n-1_ integers of the array.
 
-### **Exercise 5** -> diagonal difference
+### **Exercise 5** -> diagonal difference (HackerRank)
 
 Write a function that calculates the sums of the diagonals of any matrix given and returns the absolute difference between them.
 
-### **Exercise 6** -> staircase/christmas tree
+### **Exercise 6** -> staircase/christmas tree (HackerRank)
 
 Write a function that prints a staircase made of spaces and hashes # with _n_ steps.
 
@@ -50,7 +49,7 @@ Write a function to compare two arrays of values:
 
 The function may return the general ranking of the user for each simulated value // i.e [1, 3, 3]
 
-### **Exercise 8** -> tallest candles
+### **Exercise 8** -> tallest candles (HackerRank)
 
 Given an array of integers, get the number of occurrences of the largest number.
 
@@ -62,9 +61,13 @@ Note that you must remove the AM/PM indicators.
 
 Note also that 12 AM is 00:00:00.
 
-### **Exercise 10** -> round grades
+### **Exercise 10** -> round grades (HackerRank)
 
 Round students grades according to the rules:
 
 - If the difference between the *grade* and the next multiple of *5* is less than *3*, round up to the next multiple of *5*
 - If the value of *grade* is less than *38*, no rounding occurs as the result is a failing grade
+
+### **Exercise 11** -> migratory birds (HackerRank)
+
+Given an array containing detected migrating birds species IDs, find the higher occurrence bird ID. If two or more species occur the same, return the one with lower ID number.
